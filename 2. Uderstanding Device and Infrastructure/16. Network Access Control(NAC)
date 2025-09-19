@@ -1,0 +1,27 @@
+🔐 What is Network Access Control (NAC)?
+    Network Access Control (NAC) is a security approach that manages and enforces policies governing which devices and users can access a network. It ensures that only compliant, authenticated, and trusted devices are allowed to connect, thereby protecting the network from unauthorized access and potential threats. 
+    
+🛡️ Key Functions of NAC
+    Authentication & Authorization: Verifies the identity of users and devices before granting access.
+    Compliance Enforcement: Ensures devices meet security policies, such as having up-to-date antivirus software or security patches.
+    Access Control: Defines and enforces who can access specific network resources based on roles and policies.
+    Monitoring & Reporting: Tracks and logs network access activities for auditing and compliance purposes.
+    Remediation: Takes corrective actions, like quarantining non-compliant devices, until they meet security standards. 
+
+⚙️ How NAC Works
+    Pre-Admission Checks: Before granting network access, NAC evaluates the security posture of devices to ensure they comply with organizational policies.
+    Post-Admission Monitoring: After access is granted, NAC continuously monitors device activities to detect and respond to any suspicious behavior.
+    Policy Enforcement: NAC enforces security policies by allowing or restricting access based on device compliance and user roles.
+    Incident Response: In case of policy violations or security threats, NAC can isolate affected devices, alert administrators, and initiate remediation processes. 
+
+🧩 Types of NAC Implementations
+    Agent-Based NAC: Requires installing software agents on devices to monitor and enforce policies.
+    Agentless NAC: Does not require agents; instead, it uses network infrastructure and protocols to assess device compliance.
+    Out-of-Band NAC: Operates separately from the network traffic path, providing centralized policy enforcement.
+    In-Band NAC: Integrates directly into the network traffic path, allowing real-time policy enforcement. 
+
+✅ Benefits of NAC
+    Enhanced Security: Protects the network by ensuring only compliant devices can connect.
+    Regulatory Compliance: Helps organizations meet industry standards and regulations by enforcing security policies.
+    Reduced Risk: Minimizes the potential for data breaches and cyberattacks by controlling access.
+    Operational Efficiency: Automates access control and monitoring, reducing the administrative burden.

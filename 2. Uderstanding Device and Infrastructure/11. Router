@@ -1,0 +1,14 @@
+What is a Router?
+    A router is a networking device that connects multiple networks together and directs data packets between them. It decides the best path for data to travel from the source to the destination.
+
+Key Functions of a Router:
+    Connects different networks: For example, connects your home network to the internet.
+    Routes data packets: Determines the best route for data to reach its destination efficiently.
+    Assigns IP addresses: Often acts as a DHCP server, giving devices their local IP addresses.
+    Network traffic management: Controls and manages data flow to avoid congestion.
+    Provides security: Often includes built-in firewalls and other security features.
+
+Where is a Router Used?
+    Home networks to connect computers, phones, and smart devices to the internet.
+    Business networks to manage internal communication and internet access.
+    Large networks (like ISPs) to route data between multiple locations.

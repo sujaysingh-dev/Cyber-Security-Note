@@ -1,0 +1,17 @@
+What is a Load Balancer?
+    A load balancer is a device or software that distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed. This improves the performance, reliability, and scalability of applications and websites.
+
+⚙️ How It Works
+    Traffic Distribution: The load balancer receives incoming requests and forwards them to the least busy or most available server.
+    Health Monitoring: It continuously checks the health of servers. If one fails, traffic is redirected to healthy servers.
+    Session Persistence: For applications requiring it, the load balancer can ensure that a user's session is consistently directed to the same server.
+
+🧩 Types of Load Balancers
+    Layer 4 (Transport Layer): Operates at the TCP/UDP level. It makes routing decisions based on IP address and port. It's faster but less flexible.
+    Layer 7 (Application Layer): Operates at the HTTP/HTTPS level. It can make routing decisions based on content, such as URL paths or HTTP headers. It's more flexible but slightly slower.
+
+✅ Benefits
+    Improved Performance: By distributing traffic, it prevents any single server from becoming a bottleneck.
+    High Availability: If one server goes down, traffic is rerouted to healthy servers.
+    Scalability: As demand grows, more servers can be added to the pool without disrupting service.
+    Security: Can provide features like SSL termination and protection against certain types of attacks

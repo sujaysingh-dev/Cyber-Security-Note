@@ -1,0 +1,14 @@
+What is a Switch?
+    A switch is a networking device that connects multiple devices (like computers, printers, servers) within the same local network (LAN) and forwards data only to the intended recipient device.
+
+Key Functions of a Switch:
+    Connects devices in a network: Allows devices to communicate with each other.
+    Data forwarding: Sends data directly to the device it’s meant for, not to all devices.
+    MAC address learning: Keeps a table of device MAC addresses to efficiently route data.
+    Improves network speed: Reduces unnecessary data traffic by sending packets only to the destination device.
+
+How is a Switch Different from a Hub?
+    Feature	                          Switch	                                                        Hub
+    Data forwarding	                  Sends data to the specific device (MAC address)	                Sends data to all devices (broadcast)
+    Network efficiency	              High (less collisions)	                                        Low (more collisions)
+    Security	                        Better, since data is not broadcast	                            Lower, data goes to all devices

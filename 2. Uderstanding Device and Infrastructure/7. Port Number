@@ -1,0 +1,8 @@
+🔢 What is a Port Number?
+    A port number is a numeric identifier used in networking to specify particular processes or services running on a computer or server. It helps direct the incoming and outgoing network traffic to the right application.
+
+📋 Port Number Ranges:
+    Range	                        Description	                                          Port Numbers
+    Well-known ports	            Reserved for common services and protocols	          0 – 1023
+    Registered ports	            Assigned for user processes or apps	                  1024 – 49151
+    Dynamic / Private ports	      Used temporarily by client applications	              49152 – 65535

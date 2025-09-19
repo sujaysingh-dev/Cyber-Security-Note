@@ -1,0 +1,27 @@
+What is a Firewall?
+      A firewall is a security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts like a barrier or filter between a trusted internal network and untrusted external networks (like the internet).
+
+Purpose of a Firewall:
+      Block unauthorized access to your network or devices.
+      Allow safe and approved traffic to pass through.
+      Protect against cyber threats like hackers, malware, and viruses.
+
+Types of Firewalls:
+    Type	                                  Description
+    Packet-Filtering Firewall	              Inspects packets and allows or blocks them based on IP address, port, and protocol. Basic and fast.
+    Stateful Inspection Firewall	          Tracks the state of active connections and makes decisions based on context. More secure than packet-filtering.
+    Proxy Firewall (Application Firewall)	  Acts as an intermediary between users and the internet, filtering traffic at the application layer. Can block specific content or apps.
+    Next-Generation Firewall (NGFW)	        Combines traditional firewall features with additional capabilities like intrusion prevention, deep packet inspection, and application awareness.
+    Hardware Firewall	                      Physical device installed between your network and the internet (e.g., router with firewall).
+    Software Firewall	                      Installed on individual computers or devices to protect them specifically.
+
+How Firewalls Work:
+    Inspect Traffic: Check data packets entering or leaving the network.
+    Compare Rules: Match packets against security rules set by the admin.
+    Allow or Block: Based on rules, decide whether to let the traffic pass or block it.
+
+✅ Why Firewalls Matter:
+    Prevent unauthorized access to sensitive data.
+    Protect against attacks and malware.
+    Help enforce company security policies.
+    Act as the first line of defense in network security.

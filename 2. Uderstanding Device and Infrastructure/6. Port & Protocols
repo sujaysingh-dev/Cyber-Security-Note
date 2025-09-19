@@ -1,0 +1,20 @@
+📌 What is a Port?
+      A port is like a door or gateway on a computer or server that allows specific types of network traffic to enter or leave. Each port has a number (from 0 to 65535) that identifies a particular service or application.
+      Example: Port 80 is commonly used for web traffic (HTTP).
+      Ports help organize and manage different types of data traffic on a device.
+
+📡 What is a Protocol?
+      A protocol is a set of rules that devices follow to communicate with each other over a network. Protocols define how data is formatted, transmitted, and received.
+
+🔥 Common Protocols and Their Default Ports
+      Protocol	    Port Number	            Description
+      HTTP	        80	                    Web traffic (non-secure websites)
+      HTTPS	        443	                    Secure web traffic (encrypted)
+      FTP	          21	                    File Transfer Protocol
+      SSH	          22	                    Secure Shell (remote login)
+      SMTP	        25	                    Sending email
+      POP3	        110	                    Receiving email
+      IMAP	        143	                    Email retrieval and storage
+      DNS	          53	                    Domain Name System (translates domain names to IP addresses)
+      Telnet	      23	                    Remote login (not secure)
+      RDP	          3389	                  Remote Desktop Protocol

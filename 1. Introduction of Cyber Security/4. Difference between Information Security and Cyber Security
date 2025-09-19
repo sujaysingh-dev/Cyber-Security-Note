@@ -1,0 +1,20 @@
+Information Security and Cybersecurity are closely related but not the same. Both aim to protect data, but they focus on different areas.
+
+1. Information Security:
+  Definition: Protects all types of information, whether it's digital, physical, or spoken.
+  Scope: Includes paper documents, physical files, verbal communication, and digital data.
+  Goal: Ensures confidentiality, integrity, and availability (CIA) of information.
+  Example: Locking a file cabinet or encrypting sensitive files.
+
+2. Cybersecurity:
+  Definition: Protects digital systems, networks, and data from cyber threats like hacking, malware, or ransomware.
+  Scope: Focused only on digital environments (computers, servers, networks, cloud, etc.).
+  Goal: Defend against unauthorized digital access, cyberattacks, and data breaches.
+  Example: Installing firewalls, antivirus software, or securing a Wi-Fi network.
+
+Key Differences:
+  Aspect	      Information Security	                            Cybersecurity
+  Focus	        All forms of information	                        Digital data and systems
+  Coverage	    Broader (includes physical data)	                Narrower (focused on cyber threats)
+  Threats       Addressed	Theft, loss, unauthorized access	      Hacking, malware, phishing, etc.
+  Example       Measures	Paper shredders, access controls	      Firewalls, antivirus, encryption

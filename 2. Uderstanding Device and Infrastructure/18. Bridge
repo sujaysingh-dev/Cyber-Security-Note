@@ -1,0 +1,31 @@
+🛠️ What is a Network Bridge
+      A network bridge is a device (or software) that connects two or more separate network segments (LANs or parts of a LAN) so they act like a single network. 
+      It works at Layer 2 — the Data Link Layer of the OSI model. That means it uses MAC addresses (hardware addresses) to decide which parts of traffic to forward between segments. 
+
+🔍 How It Works
+      Learning
+          The bridge “listens” to traffic from each of its ports and builds a table of which devices (MAC addresses) are reachable through which port.   
+      Forwarding or Filtering
+          When a frame (packet at Layer 2) arrives, the bridge checks its destination MAC.
+          If the destination is in the same segment (i.e. same side of the bridge) as the source, it does not forward it, reducing unnecessary traffic.
+      Flooding (when necessary)
+          If the bridge does not yet know which port a destination MAC address lives on, it can send (“flood”) the frame to all ports except the one it came from. When a reply comes back, the bridge will learn where that destination MAC is. 
+
+
+➕ Advantages
+      Reduces Collisions & Congestion
+          By splitting a large LAN into smaller segments, bridges reduce the “noise” of unnecessary traffic. 
+      Better Performance
+          Less traffic to handle on each segment often means faster responses. 
+      Network Extension / Segmentation
+          Useful to join or separate parts of a network without using routers, especially when staying within the same subnet/protocol. 
+      
+⚠️ Limitations & Security Concerns
+      Broadcast & Flood Traffic
+          Because bridges forward broadcast frames (e.g., ARP requests) across segments, these can cause a lot of traffic. 
+      Loops
+          If bridges are connected in a loop, broadcast/flooding can get out of control. To avoid this, protocols like Spanning Tree Protocol (STP) are used. 
+      Limited Scalability
+          Bridges are simpler than switches/routers; for large networks, switches or more complex network devices are more efficient. 
+      Security Risks
+          Because bridges work at layer 2, risks like MAC spoofing or ARP poisoning can be more serious if not managed. Without proper segmentation or controls, an attacker might exploit the bridge.

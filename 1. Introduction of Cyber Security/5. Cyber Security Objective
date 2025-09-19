@@ -1,0 +1,19 @@
+The objectives of cybersecurity focus on protecting digital systems, data, and networks from cyber threats. These objectives are often guided by the CIA Triad:
+
+🔑 1. Confidentiality
+  Ensure that sensitive information is only accessible to authorized users.
+  Protect data from unauthorized access or disclosure.
+
+🔧 2. Integrity
+  Maintain the accuracy and trustworthiness of data.
+  Prevent unauthorized changes or tampering with information.
+
+🌐 3. Availability
+  Ensure systems, data, and services are accessible when needed.
+  Protect against disruptions like DDoS attacks or hardware failures.
+
+🛡️ Other Key Objectives:
+  Authentication – Verify the identity of users and systems.
+  Non-repudiation – Ensure actions or transactions cannot be denied later.
+  Risk Management – Identify, assess, and reduce security risks.
+  Incident Response – Detect, respond to, and recover from cyber incidents.

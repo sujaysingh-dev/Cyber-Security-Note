@@ -1,0 +1,119 @@
+1. Introduction to Ethical Hacking
+
+Definition: Ethical hacking involves authorized testing of computer systems and networks to discover and exploit vulnerabilities, which is done to improve system security. The goal is to find weaknesses before malicious hackers can exploit them. Ethical hackers (white hat hackers) mimic the strategies of black hat hackers, but with the permission of the owner.
+Tools: Kali Linux, Metasploit.
+Example: A company hires an ethical hacker to find vulnerabilities in its network infrastructure.
+
+2. Footprint/Information Gathering
+
+Definition: Footprinting is the first step in ethical hacking. It involves gathering as much information as possible about a target system to identify potential vulnerabilities. It can be passive (gathering info without direct interaction) or active (actively probing a system).
+Tools: Nmap, Netcraft, Whois.
+Example: Using Whois to identify domain name registration details of a target.
+
+3. Scanning
+
+Definition: Scanning is the process of discovering live hosts, open ports, and services on a network. This step helps ethical hackers find targets for exploitation.
+Tools: Nmap, Nessus, OpenVAS.
+Example: Using Nmap to scan a network and identify open ports on a server.
+
+4. Vulnerability Analysis
+
+Definition: Vulnerability analysis involves identifying potential vulnerabilities within the network, system, or application that could be exploited by hackers. The goal is to determine what is exposed.
+Tools: Nessus, OpenVAS, Nexpose.
+Example: Using Nessus to perform a vulnerability scan and identify weaknesses in an organization’s firewall.
+
+5. Sniffing & Man-in-Middle
+
+Definition: Sniffing is the act of intercepting data traveling through a network. Man-in-the-middle (MITM) attacks involve intercepting communication between two parties, making the attacker appear as an intermediary.
+Tools: Wireshark, Cain & Abel.
+Example: Using Wireshark to capture unencrypted traffic between a browser and a website.
+
+6. System Hacking
+
+Definition: System hacking involves exploiting vulnerabilities in a computer system to gain unauthorized access, manipulate data, or cause harm. It could include password cracking, privilege escalation, or installing malware.
+Tools: Metasploit, John the Ripper.
+Example: Using Metasploit to exploit a vulnerability in a Windows system.
+
+7. Metasploit Attacks
+
+Definition: Metasploit is a powerful framework used by ethical hackers to develop and execute exploit code against remote target machines. It’s used to test the security of systems by launching various attacks.
+Tools: Metasploit Framework.
+Example: Using Metasploit to exploit a vulnerable web server and gain unauthorized access.
+
+8. Malware Threats
+
+Definition: Malware includes any malicious software designed to harm, exploit, or disrupt a computer system. Ethical hackers study malware to understand its behavior and create countermeasures.
+Tools: VirusTotal, Sandboxie.
+Example: Using VirusTotal to analyze a suspicious file and determine if it's malicious.
+
+9. Phishing Attacks
+
+Definition: Phishing involves sending deceptive emails or messages to trick individuals into revealing personal or financial information. It is a common social engineering attack method.
+Tools: SET (Social Engineering Toolkit), Gophish.
+Example: Crafting a phishing email that looks like it’s from a bank to steal login credentials.
+
+10. Social Engineering Attacks
+
+Definition: Social engineering is manipulating people into revealing confidential information, often through psychological manipulation, rather than breaking into systems directly.
+Tools: Social Engineer Toolkit (SET), Maltego.
+Example: Using phone calls or emails to impersonate an IT administrator and gain access to a secure system.
+
+11. Hacking Webservers & Web Applications
+
+Definition: Web servers and applications are frequently targeted by attackers. Ethical hackers analyze web servers and applications to detect vulnerabilities like cross-site scripting (XSS) and SQL injection.
+Tools: Burp Suite, OWASP ZAP, Nikto.
+Example: Using Burp Suite to test for vulnerabilities in a web application.
+
+12. SQL Injection
+
+Definition: SQL injection is a type of attack where malicious SQL code is inserted into an input field, typically a form, in an attempt to manipulate or access a database.
+Tools: SQLmap, Burp Suite.
+Example: Injecting malicious SQL statements to extract data from a database.
+
+13. Wireless Attacks
+
+Definition: Wireless attacks target Wi-Fi networks. These attacks aim to exploit weaknesses in wireless protocols like WEP, WPA, and WPA2 to gain unauthorized access.
+Tools: Aircrack-ng, Kismet.
+Example: Using Aircrack-ng to break a WEP password and gain access to a Wi-Fi network.
+
+14. Firewalls
+
+Definition: A firewall is a security system designed to monitor and control incoming and outgoing network traffic. Ethical hackers test firewalls to ensure they’re effectively blocking malicious traffic.
+Tools: pfSense, Firewalk.
+Example: Using pfSense to configure and test firewall rules in an organization’s network.
+
+15. IDS/IPS
+
+Definition: Intrusion Detection Systems (IDS) detect unauthorized access attempts, while Intrusion Prevention Systems (IPS) actively block these attempts. Ethical hackers test these systems to verify their effectiveness.
+Tools: Snort, Suricata.
+Example: Configuring Snort IDS to alert when a known attack pattern is detected.
+
+16. Honeypots
+
+Definition: Honeypots are decoy systems designed to attract attackers, allowing ethical hackers to study their techniques. These fake systems help monitor malicious activity.
+Tools: Honeyd, Kippo.
+Example: Setting up a honeypot with Honeyd to simulate a vulnerable system.
+
+17. Cloud Computing
+
+Definition: Cloud computing refers to the use of remote servers to store, manage, and process data. Ethical hackers test cloud security to ensure data is protected from unauthorized access.
+Tools: Amazon Web Services (AWS) CloudTrail, Kali Linux.
+Example: Using AWS CloudTrail to monitor security-related activity in a cloud environment.
+
+18. IoT Hacking
+
+Definition: The Internet of Things (IoT) refers to interconnected devices that communicate over the internet. Ethical hackers test these devices for security vulnerabilities to prevent attacks.
+Tools: Shodan, Wireshark.
+Example: Using Shodan to find exposed IoT devices on the internet.
+
+19. Cryptography
+
+Definition: Cryptography is the practice of securing communication and data through encoding methods like encryption and hashing. Ethical hackers use cryptography to protect data and break weak encryption.
+Tools: OpenSSL, Hashcat.
+Example: Using Hashcat to perform a brute force attack on an encrypted password.
+
+20. Penetration Testing
+
+Definition: Penetration testing involves simulating an attack on a system to identify security weaknesses. It is a proactive approach to safeguarding systems.
+Tools: Kali Linux, Metasploit, Burp Suite.
+Example: Conducting a penetration test on a company’s internal network to identify and fix vulnerabilities.

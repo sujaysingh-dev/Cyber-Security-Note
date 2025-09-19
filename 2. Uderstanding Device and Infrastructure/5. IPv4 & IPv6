@@ -1,0 +1,34 @@
+What is IP?
+IP (Internet Protocol) is the set of rules that devices use to communicate over the internet by assigning addresses to each device.
+
+🔹 IPv4 (Internet Protocol version 4)
+      Address format: 32-bit numeric address, written as four decimal numbers separated by dots (e.g., 192.168.1.1).
+      Number of addresses: About 4.3 billion unique addresses.
+      Address types: Unicast, multicast, and broadcast.
+      Header size: 20 bytes.
+      Address configuration: Can be manual or automatic (DHCP).
+      Security: Optional (IPSec is optional).
+      Compatibility: Widely used and supported by almost all devices.
+      Limitations: Running out of available addresses due to limited size.
+
+🔹 IPv6 (Internet Protocol version 6)
+      Address format: 128-bit hexadecimal address, written as eight groups separated by colons (e.g., 2001:0db8:85a3::8a2e:0370:7334).
+      Number of addresses: About 3.4 x 10^38 addresses (virtually unlimited).
+      Address types: Unicast, multicast, and anycast (no broadcast).
+      Header size: 40 bytes (simplified header for efficiency).
+      Address configuration: Supports auto-configuration (stateless address autoconfiguration).
+      Security: IPSec support is mandatory.
+      Compatibility: Not backward compatible with IPv4, requires transition mechanisms.
+      Advantages: Solves IPv4 exhaustion, better routing, improved security, and simplified network configuration.
+
+📊 IPv4 vs IPv6 Comparison Table
+      Feature	                    IPv4	                                IPv6
+      Address Length	            32 bits	                              128 bits
+      Address Format	            Decimal (e.g., 192.168.1.1)	          Hexadecimal (e.g., 2001:db8::1)
+      Number of Addresses	        ~4.3 billion	                        ~3.4 x 10^38
+      Header Complexity	          Complex header	                      Simplified header
+      Configuration	              Manual or DHCP	                      Auto-configuration supported
+      Security	                  Optional (IPSec optional)	            Mandatory IPSec support
+      Broadcast Support	          Yes	                                  No (replaced by multicast)
+      Compatibility	              Widely supported	                    Not backward compatible
+      Address Types	              Unicast, multicast, broadcast	        Unicast, multicast, anycast

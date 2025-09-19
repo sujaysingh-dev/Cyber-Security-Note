@@ -1,0 +1,29 @@
+Here’s a short and simple list of common infrastructure-related terms used in IT and cybersecurity. These terms help understand how systems, networks, and data are built, connected, and secured.
+
+🔧 Core Infrastructure Terms:
+      Term	                            Definition
+      
+      Hardware	                        Physical devices like servers, routers, computers, and switches.
+      Software	                        Programs and operating systems running on hardware.
+      Network	                          A group of connected devices that share data and resources.
+      Server	                          A computer that provides services (like websites, files, or apps) to others.
+      Data Center	                      A facility that houses servers, storage, and networking equipment.
+      Firewall	                        A security device that filters incoming and outgoing network traffic.
+      Router	                          A device that connects different networks and routes data between them.
+      Switch	                          Connects devices within a network and directs data to the correct device.
+      IP Address	                      A unique number assigned to each device on a network.
+      DNS (Domain Name System)	        Translates domain names (like google.com) into IP addresses.
+      Bandwidth	                        The amount of data that can be transferred over a network in a given time.
+      Latency	                          The delay before data begins to transfer after a request.
+      Cloud Infrastructure	            Servers and services provided over the internet (e.g., AWS, Azure).
+      Virtualization	                  Running multiple systems (VMs) on a single physical machine.
+      Load Balancer	                    Distributes network or application traffic across multiple servers.
+
+🔐 Security-Specific Infrastructure Terms:
+      Term	                                        Definition
+      
+      DMZ (Demilitarized Zone)	                    A zone between internal and external networks to add extra security.
+      IDS/IPS	Intrusion Detection/Prevention        Systems that monitor and stop malicious activity.
+      VPN (Virtual Private Network)	                Encrypts internet traffic and hides online identity.
+      Proxy Server	                                Intermediary server between users and the internet for filtering and privacy.
+      SIEM (Security Info & Event Management)	      Tool that collects and analyzes security logs and alerts.

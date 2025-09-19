@@ -1,0 +1,36 @@
+🔷 OSI Model (Open Systems Interconnection Model)
+    Developed by ISO (International Organization for Standardization)
+    Conceptual model to standardize the functions of a communication system
+    Has 7 layers
+    Mostly used for learning and design, not direct implementation
+
+🔶 TCP/IP Model (Transmission Control Protocol/Internet Protocol Model)
+    Developed by the U.S. Department of Defense (DoD)
+    Based on real protocols used on the Internet
+    Has 4 layers
+    Widely used in real-world networking and communication
+
+📊 Layer-by-Layer Comparison Table
+
+    OSI Layer	        Layer Number	          Function	Equivalent TCP/IP Layer	                                      Example Protocols      
+    Application	      7	                      Interface for end-user applications	Application	                        HTTP, FTP, SMTP, DNS
+    Presentation	    6	                      Data translation, encryption, compression	Application	                  SSL/TLS, JPEG, ASCII
+    Session	          5	                      Starts, manages, and ends sessions	Application	                        NetBIOS, RPC
+    Transport	        4	                      Reliable data transfer, flow control, error correction Transport	      TCP, UDP
+    Network	          3	                      Logical addressing and routing	Internet	                              IP, ICMP
+    Data Link	        2	                      Physical addressing, error detection on local link	Network Access	    Ethernet, ARP
+    Physical	        1	                      Transmission of raw bit streams	Network Access	                        Cables, Hubs, NIC
+    
+🔁 Key Differences
+    Feature	                           OSI Model	                                   TCP/IP Model
+    Full Form	                         Open Systems Interconnection	                 Transmission Control Protocol/Internet Protocol
+    Number of Layers	                 7	                                           4
+    Layer Separation	                 Clear and strict separation of functions	     Less strict, some functions merged
+    Design	                           Theoretical model	                           Practical implementation model
+    Use Case	                         Used for understanding and teaching	         Used for real-world network communication
+    Protocol                           Dependency	Protocol-independent	             Protocol-dependent (TCP/IP stack)
+    Standardized by	                   ISO	                                         DoD (U.S. Department of Defense)
+
+📌 Why Both Matter
+    OSI Model: Helps students and professionals understand how networking works, step by step.
+    TCP/IP Model: Reflects how the Internet and modern networks actually operate.

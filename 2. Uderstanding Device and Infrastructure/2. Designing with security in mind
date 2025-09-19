@@ -1,0 +1,25 @@
+Designing with security in mind means building systems, software, and networks in a way that prevents cyber threats from the start, rather than fixing problems later. It’s also called “security by design.”
+
+🔑 Key Principles:
+    Secure by Default
+        Systems should have strong security settings enabled automatically (e.g., password policies, firewalls).
+    Least Privilege
+        Give users only the access they need to do their job — nothing more.
+    Defense in Depth
+        Use multiple layers of security (e.g., firewall, antivirus, intrusion detection) to reduce risk.
+    Threat Modeling
+        Identify possible threats early during the design phase and plan how to stop them.
+    Input Validation
+        Make sure user input is clean to prevent attacks like SQL injection or cross-site scripting.
+    Secure Communication
+        Use encryption (e.g., HTTPS, VPN) to protect data in transit.
+    Regular Updates & Patching
+        Design systems that can be easily updated to fix new vulnerabilities.
+    Audit & Logging
+        Keep records of activity to detect and investigate security issues.
+
+🧠 Why It Matters:
+    Prevents data breaches
+    Reduces long-term costs
+    Protects users and systems
+    Builds trust with customers

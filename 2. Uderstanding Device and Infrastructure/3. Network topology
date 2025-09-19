@@ -1,0 +1,12 @@
+Network topology refers to the layout or structure of how computers, devices, and cables are connected in a network. It shows how data flows between devices.
+
+🔑 Types of Network Topologies:
+
+      Topology	  Description	                                                            Pros	                                            Cons
+      
+      Bus	        All devices connected to a single central cable (the bus).	            Easy to set up, low cost.	                        Slow with many devices, hard to troubleshoot.
+      Star	      All devices connect to a central device (like a switch or hub).	        Easy to manage, reliable.	                        If central device fails, network goes down.
+      Ring	      Devices connected in a circle, data travels in one direction.	          Easy to install, good for small networks.	        One device failure can affect the whole network.
+      Mesh	      Every device connects to every other device.	                          Very reliable, no single point of failure.	      Expensive and complex.
+      Tree	      Combination of star and bus topology.	                                  Scalable and easy to manage.	                    If root node fails, parts of the network go down.
+      Hybrid	    Mix of two or more topologies.	                                        Flexible and scalable.	                          Can be complex to design and manage.

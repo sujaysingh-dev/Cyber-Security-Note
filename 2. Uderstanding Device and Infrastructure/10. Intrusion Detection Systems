@@ -1,0 +1,27 @@
+What is an Intrusion Detection System (IDS)?
+    An IDS is a security tool that monitors network or system activities to detect malicious actions or policy violations. It alerts administrators about possible cyber attacks or unauthorized access attempts.
+
+Types of IDS:
+    Type	                            Description
+    Network-based IDS (NIDS)	        Monitors network traffic for suspicious activity (e.g., unusual data packets). Usually placed at key points in the network.
+    Host-based IDS (HIDS)            	Monitors activities on individual computers or devices (e.g., file changes, system logs).
+    Signature-based IDS	              Detects attacks by looking for known patterns or signatures (like antivirus).
+    Anomaly-based IDS	                Detects unusual behavior that deviates from normal patterns, useful for finding new or unknown attacks.
+
+How IDS Works:
+    Collect Data: Captures network packets or system logs.
+    Analyze: Compares data against known attack signatures or normal behavior baselines.
+    Detect: Identifies suspicious or malicious activity.
+    Alert: Sends notifications to security teams for investigation.
+
+Difference Between IDS and IPS:
+    IDS	                                      IPS (Intrusion Prevention System)
+    Detects and alerts only.	                Detects and blocks threats automatically.
+    Passive monitoring.	                      Active response system.
+    Requires manual action after alert.	      Can prevent attacks in real-time.
+
+✅ Why IDS is Important:
+    Helps identify attacks early before serious damage.
+    Supports forensic analysis and incident response.
+    Improves overall network security posture.
+    Complements firewalls and antivirus tools.
