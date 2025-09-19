@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujay Singh - Cybersecurity Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .skill-tag { transition: all 0.3s ease; }
+        .skill-tag:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .section-card { transition: all 0.3s ease; }
+        .section-card:hover { transform: translateY(-1px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .print-btn { transition: all 0.3s ease; }
+        .print-btn:hover { transform: scale(1.05); }
+        @media print {
+            .print-btn { display: none; }
+            body { background: white !important; }
+            .gradient-bg { background: #4f46e5 !important; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen py-8">
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-2xl overflow-hidden">
+        <!-- Header Section -->
+        <div class="gradient-bg text-white p-8 relative">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="w-32 h-32 bg-white bg-opacity-20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <i class="fas fa-shield-alt text-5xl text-white"></i>
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl font-bold mb-2">Sujay Singh</h1>
+                    <p class="text-xl text-blue-100 mb-4">Cybersecurity Professional</p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-envelope"></i>
+                            <span>xyz@gmail.com</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-phone"></i>
+                            <span>1234567890</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nirmalichak, Khusrupur, Patna, Bihar 803202</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-8 space-y-8">
+            <!-- Professional Summary -->
+            <div class="section-card bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
+                    <i class="fas fa-user-tie text-blue-600"></i>
+                    Professional Summary
+                </h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Dedicated Cybersecurity Professional with 6 months of hands-on experience in information security. 
+                    Proficient in multiple cybersecurity tools and frameworks with a strong educational background in 
+                    computer applications. Committed to protecting digital assets and maintaining robust security postures 
+                    for organizations.
+                </p>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="section-card bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                    <i class="fas fa-briefcase text-green-600"></i>
+                    Professional Experience
+                </h2>
+                <div class="border-l-4 border-blue-500 pl-6 ml-2">
+                    <div class="mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Cybersecurity Professional</h3>
+                        <p class="text-blue-600 font-medium">Ramana Soft, Hyderabad</p>
+                        <p class="text-gray-500 text-sm mb-3">6 Months Experience</p>
+                        <ul class="text-gray-700 space-y-2">
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                Implemented security protocols and monitoring systems
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                Conducted vulnerability assessments and security audits
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                Utilized multiple cybersecurity tools for threat detection and prevention
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section-card bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                    <i class="fas fa-tools text-purple-600"></i>
+                    Cybersecurity Skills & Tools
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <div class="skill-tag bg-red-100 text-red-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-shield-virus mb-1"></i><br>Vulnerability Assessment
+                    </div>
+                    <div class="skill-tag bg-blue-100 text-blue-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-network-wired mb-1"></i><br>Network Security
+                    </div>
+                    <div class="skill-tag bg-green-100 text-green-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-bug mb-1"></i><br>Penetration Testing
+                    </div>
+                    <div class="skill-tag bg-yellow-100 text-yellow-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-eye mb-1"></i><br>Security Monitoring
+                    </div>
+                    <div class="skill-tag bg-purple-100 text-purple-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-lock mb-1"></i><br>Incident Response
+                    </div>
+                    <div class="skill-tag bg-indigo-100 text-indigo-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-search mb-1"></i><br>Threat Analysis
+                    </div>
+                    <div class="skill-tag bg-pink-100 text-pink-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-server mb-1"></i><br>Security Auditing
+                    </div>
+                    <div class="skill-tag bg-teal-100 text-teal-800 px-3 py-2 rounded-lg text-center font-medium">
+                        <i class="fas fa-code mb-1"></i><br>Security Frameworks
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section-card bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                    <i class="fas fa-graduation-cap text-blue-600"></i>
+                    Education
+                </h2>
+                <div class="space-y-6">
+                    <!-- BCA -->
+                    <div class="flex items-start gap-4 p-4 bg-blue-50 rounded-lg">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                            BCA
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-semibold text-gray-800">Bachelor of Computer Applications</h3>
+                            <p class="text-blue-600">College of Commerce, Patna</p>
+                            <p class="text-gray-600">Percentage: <span class="font-semibold text-green-600">79%</span></p>
+                        </div>
+                    </div>
+
+                    <!-- ITI -->
+                    <div class="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            ITI
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-semibold text-gray-800">Industrial Training Institute</h3>
+                            <p class="text-green-600">MKDSS, Biharsarif, Nalanda</p>
+                            <p class="text-gray-600">Percentage: <span class="font-semibold text-green-600">81.80%</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="flex items-start gap-4 p-4 bg-yellow-50 rounded-lg">
+                        <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center text-white font-bold">
+                            12th
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-semibold text-gray-800">Intermediate</h3>
+                            <p class="text-yellow-600">RLSY, Bakhtiyarpur</p>
+                            <p class="text-gray-600">Percentage: <span class="font-semibold text-green-600">60%</span></p>
+                        </div>
+                    </div>
+
+                    <!-- 10th -->
+                    <div class="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
+                            10th
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-semibold text-gray-800">Matriculation</h3>
+                            <p class="text-purple-600">UMS, Nirmalichak</p>
+                            <p class="text-gray-600">Percentage: <span class="font-semibold text-green-600">63.2%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="text-center py-6 border-t border-gray-200">
+                <p class="text-gray-600">
+                    <i class="fas fa-shield-alt text-blue-600"></i>
+                    Committed to Excellence in Cybersecurity
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scrolling and interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effects to skill tags
+            const skillTags = document.querySelectorAll('.skill-tag');
+            skillTags.forEach(tag => {
+                tag.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px) scale(1.02)';
+                });
+                tag.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+
+            // Add animation on scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            document.querySelectorAll('.section-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'all 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</html>
